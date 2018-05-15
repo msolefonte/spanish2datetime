@@ -5,7 +5,8 @@ Python3 script able to turn spanish text into datetime.
 
 ## Installation (On work)
 
-If you already have [Python3](http://www.python.org/) on your system you can install the library simply by downloading the distribution, unpack it and install in the usual fashion:
+If you already have [Python3](http://www.python.org/) on your system you can install the library simply by downloading
+the distribution, unpack it and install in the usual fashion:
 
 ```bash
 python3 setup.py install
@@ -58,7 +59,8 @@ datetime = spanish2datetime(example.lower().split(' '))
 print(example + ': ' + str(datetime))
 >>>El viernes que viene a las nueve de la noche: 2018-05-18 21:00:00
 
-example = 'Dentro de dos semanas y cuatro días a las ocho y media de la tarde'
+example = 'Dentro de dos semanas y cuatro días a las ocho y
+           media de la tarde'
 datetime = spanish2datetime(example.lower().split(' '))
 print(example + ': ' + str(datetime))
 >>>Dentro de dos semanas y cuatro días a las ocho y media de la tarde: 2018-06-02 20:30:00
@@ -66,7 +68,8 @@ print(example + ': ' + str(datetime))
 example = 'Dentro de'
 datetime = spanish2datetime(example.lower().split(' '))
 print(example + ': ' + str(e))
->>>TypeError: Error procesando [en/dentro de] [n] [años/año/meses/mes/semanas/semana/días/día/horas/hora/minutos/minuto/segundos/segundos]
+>>>TypeError: Error procesando [en/dentro de] [n] [años/año/meses/mes/semanas/semana/días/día/horas/hora
+              /minutos/minuto/segundos/segundos]
 
 example = 'Mañana a las cinco de'
 datetime = spanish2datetime(example.lower().split(' '))
