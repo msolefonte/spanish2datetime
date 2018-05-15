@@ -47,8 +47,10 @@ for example in ['Hoy', 'Mañana por la mañana', 'Esta tarde', 'Ayer a las seis 
 >>> 'Ayer a las seis y media: 2018-05-14 06:30:00'
 >>> 'El viernes que viene a las nueve de la noche: 2018-05-18 21:00:00'
 >>> 'Dentro de dos semanas y cuatro días a las ocho y media de la tarde: 2018-06-02 20:30:00'
+# Dentro de
 >>> TypeError: Error procesando [en/dentro de] [n] [años/año/meses/mes/semanas/semana/días/día/horas/hora
               /minutos/minuto/segundos/segundos]
+# Mañana a las cinco de
 >>> TypeError: Mañana a las cinco de: Error procesando [de] [la] [mañana/tarde/noche]
 ```
 ## Documentation (On work)
