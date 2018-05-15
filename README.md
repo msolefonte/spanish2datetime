@@ -59,8 +59,7 @@ datetime = spanish2datetime(example.lower().split(' '))
 print(example + ': ' + str(datetime))
 >>> 'El viernes que viene a las nueve de la noche: 2018-05-18 21:00:00'
 
-example = 'Dentro de dos semanas y cuatro días a las ocho y
-           media de la tarde'
+example = 'Dentro de dos semanas y cuatro días a las ocho y media de la tarde'
 datetime = spanish2datetime(example.lower().split(' '))
 print(example + ': ' + str(datetime))
 >>> 'Dentro de dos semanas y cuatro días a las ocho y media de la tarde: 2018-06-02 20:30:00'
