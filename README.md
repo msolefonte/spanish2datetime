@@ -37,44 +37,44 @@ from spanish2datetime import spanish2datetime
 example = 'Hoy'
 datetime = spanish2datetime(example.lower().split(' '))
 print(example + ': ' + str(datetime))
->>> Hoy: 2018-05-15 13:51:48
+>>> 'Hoy: 2018-05-15 13:51:48'
 
 example = 'Mañana por la mañana'
 datetime = spanish2datetime(example.lower().split(' '))
 print(example + ': ' + str(datetime))
->>>Mañana por la mañana: 2018-05-16 07:00:00
+>>> 'Mañana por la mañana: 2018-05-16 07:00:00'
 
 example = 'Esta tarde'
 datetime = spanish2datetime(example.lower().split(' '))
 print(example + ': ' + str(datetime))
->>>Esta tarde: 2018-05-15 14:00:00
+>>> 'Esta tarde: 2018-05-15 14:00:00'
 
 example = 'Ayer a las seis y media'
 datetime = spanish2datetime(example.lower().split(' '))
 print(example + ': ' + str(datetime))
->>>Ayer a las seis y media: 2018-05-14 06:30:00
+>>> 'Ayer a las seis y media: 2018-05-14 06:30:00'
 
 example = 'El viernes que viene a las nueve de la noche'
 datetime = spanish2datetime(example.lower().split(' '))
 print(example + ': ' + str(datetime))
->>>El viernes que viene a las nueve de la noche: 2018-05-18 21:00:00
+>>> 'El viernes que viene a las nueve de la noche: 2018-05-18 21:00:00'
 
 example = 'Dentro de dos semanas y cuatro días a las ocho y
            media de la tarde'
 datetime = spanish2datetime(example.lower().split(' '))
 print(example + ': ' + str(datetime))
->>>Dentro de dos semanas y cuatro días a las ocho y media de la tarde: 2018-06-02 20:30:00
+>>> 'Dentro de dos semanas y cuatro días a las ocho y media de la tarde: 2018-06-02 20:30:00'
 
 example = 'Dentro de'
 datetime = spanish2datetime(example.lower().split(' '))
 print(example + ': ' + str(e))
->>>TypeError: Error procesando [en/dentro de] [n] [años/año/meses/mes/semanas/semana/días/día/horas/hora
-              /minutos/minuto/segundos/segundos]
+>>>'TypeError: Error procesando [en/dentro de] [n] [años/año/meses/mes/semanas/semana/días/día/horas/hora
+              /minutos/minuto/segundos/segundos]'
 
 example = 'Mañana a las cinco de'
 datetime = spanish2datetime(example.lower().split(' '))
 print(example + ': ' + str(e))
->>>TypeError: Mañana a las cinco de: Error procesando [de] [la] [mañana/tarde/noche]
+>>>'TypeError: Mañana a las cinco de: Error procesando [de] [la] [mañana/tarde/noche]'
 ```
 ## Documentation (On work)
 
