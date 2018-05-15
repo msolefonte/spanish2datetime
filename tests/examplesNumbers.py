@@ -1,6 +1,6 @@
 from spanish2datetime.spanish2datetime import spanish2num
 
-print('# NORMAL USE')
+print('USO NORMAL')
 
 print('Menos uno -> -1 (Out of range 0-60)')
 menos_uno = spanish2num('menos_uno')
@@ -26,7 +26,7 @@ print('Sesenta y uno -> 61 (Out of range 0-60)')
 sesenta_y_uno = spanish2num('sesenta y uno')
 print(sesenta_y_uno)
 
-print('\n\n# CHANGED ENDING')
+print('\n\nUSO CON change_ending=True')
 
 print('Veintiun -> 21')
 veintiun = spanish2num('veintiun')

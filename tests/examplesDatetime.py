@@ -1,6 +1,10 @@
 from spanish2datetime.spanish2datetime import spanish2datetime
 
-print('# CORRECT USE')
+print('USO CORRECTO')
+
+example = 'Hoy'
+datetime = spanish2datetime(example.lower().split(' '))
+print(example + ': ' + str(datetime))
 
 example = 'Mañana por la mañana'
 datetime = spanish2datetime(example.lower().split(' '))
@@ -22,7 +26,7 @@ example = 'Dentro de dos semanas y cuatro días a las ocho y media de la tarde'
 datetime = spanish2datetime(example.lower().split(' '))
 print(example + ': ' + str(datetime))
 
-print('\n\n# EXCEPTIONS')
+print('\n\nUSO CON ERRORES')
 
 example = 'Dentro de'
 try:
