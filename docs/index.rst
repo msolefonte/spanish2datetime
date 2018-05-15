@@ -24,12 +24,12 @@ If you any have questions about spotify-manager, you can mail me to my account
 *'marcsole @ insomniacwolves.com'* and I will try to answer as soon as possible.
 
 If you think you've found a bug, let me know at
-`spanish2datetime <https://github.com/WolfyLPDC/spanish2datetime/issues>`_
+`spanish2datetime <https://github.com/WolfyLPDC/spanish2datetime/issues>`_.
 
 
 Contribute
 ==========
-spanish2datetime authored by Marc Solé (`WolfyLPDC <https://github.com/WolfyLPDC/>`_)..
+spanish2datetime authored by Marc Solé (`WolfyLPDC <https://github.com/WolfyLPDC/>`_).
 
 License
 =======
