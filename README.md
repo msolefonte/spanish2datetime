@@ -68,13 +68,13 @@ print(example + ': ' + str(datetime))
 example = 'Dentro de'
 datetime = spanish2datetime(example.lower().split(' '))
 print(example + ': ' + str(e))
->>>'TypeError: Error procesando [en/dentro de] [n] [años/año/meses/mes/semanas/semana/días/día/horas/hora
-              /minutos/minuto/segundos/segundos]'
+>>> TypeError: Error procesando [en/dentro de] [n] [años/año/meses/mes/semanas/semana/días/día/horas/hora
+              /minutos/minuto/segundos/segundos]
 
 example = 'Mañana a las cinco de'
 datetime = spanish2datetime(example.lower().split(' '))
 print(example + ': ' + str(e))
->>>'TypeError: Mañana a las cinco de: Error procesando [de] [la] [mañana/tarde/noche]'
+>>> TypeError: Mañana a las cinco de: Error procesando [de] [la] [mañana/tarde/noche]
 ```
 ## Documentation (On work)
 
