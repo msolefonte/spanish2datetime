@@ -59,7 +59,7 @@ https://spanish2datetime.readthedocs.io/en/latest/
 
 ## Reporting Issues
 
-If you have suggestions, bugs or other issues specific to this library, file them [here](https://github.com/WolfyLPDC/spanish2datetime/issues). Or just send me a pull request.
+If you have suggestions, bugs or other issues specific to this library, file them [here](https://github.com/msolefonte/spanish2datetime/issues). Or just send me a pull request.
 
 ## Version
 
